@@ -1,0 +1,7 @@
+html, body {
+    height: 100%;
+    margin: 0; /* 取消默认的 margin */
+}
+#app {
+    height: 100%; /* 让 #app 填满整个视口 */
+}
