@@ -10,7 +10,6 @@
     </div>
   </div>
 </template>
-
 <script setup>
 import {useRouter} from 'vue-router';
 import {useStore} from '@/stores';
@@ -20,7 +19,6 @@ import Card from '@/components/Card.vue'
 
 const currentTab = ref(useStore().currentTab);
 const router = useRouter();
-
 const goBack = () => {
   router.back(); // 返回到上一页
   currentTab.value = 'user';
